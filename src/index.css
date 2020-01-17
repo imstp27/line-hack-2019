@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Prompt:300,400,700,800&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: 'Prompt', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to left top, #1e55a7, #0081d2, #00aad6, #00ceb0, #12eb71);
+  min-height: 100vh;
 }
 
 code {
